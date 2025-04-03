@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const themeToggle = document.getElementById('themeToggle');
     themeToggle.addEventListener('click', () => {
       document.body.classList.toggle('light-theme');
-      themeToggle.textContent = document.body.classList.contains('light-theme') ? 'â˜€' : 'â˜¾';
+      themeToggle.textContent = document.body.classList.contains('light-theme') ? '☀' : '☾';
     });
   
     // 3) Three.js starfield background
